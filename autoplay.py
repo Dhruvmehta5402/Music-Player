@@ -3,7 +3,7 @@ import os
 
 
 directory = "Songs"
-path = "C:\\Users\\Dhruv\\musicplayer\\Songs\\"
+path = "Songs\\"
 for filename in os.listdir(directory):
     print(path + filename)
     songname = path + filename
